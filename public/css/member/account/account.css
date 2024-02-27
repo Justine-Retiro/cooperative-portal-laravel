@@ -1,0 +1,127 @@
+.col{
+    
+    border: 3px solid #E3E8F1;
+}
+
+
+.col-lg-12{
+    padding: em;
+}
+/* 
+#header-container 
+.row 
+.col-md-3 table tr th{
+    font-weight: 400;
+} */
+
+#header-container 
+.row 
+.col-md-3 table tr{
+    margin-right: 1em;
+}
+
+.container-wrapper-contents{
+    padding: 0 2.7em 0 2.7em;
+}
+/* Card */
+.col-md-121{
+    margin-top: 2em;
+    padding: 2em;
+    /* outline: auto; */
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.10);
+
+}
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em 0 1em;
+}
+
+.card-header button{
+    background-color: none;
+    border: none;
+}
+
+/* .t-scrollable{
+  max-height: 350px;
+  overflow-y: auto;
+} */
+/* .table-fixed {
+   display: table;
+   width: 100%;
+}
+
+.table-fixed thead tr, .table-fixed tbody tr {
+   display: table-row;
+}
+
+.table-fixed th, .table-fixed td {
+   display: table-cell;
+   width: auto;
+}
+
+.table-fixed tbody {
+   display: block;
+   overflow-y: scroll;
+   max-height: 40vh;
+}
+
+.table-fixed thead {
+   display: table;
+   width: 100%;
+   table-layout: fixed;
+} */
+.table-wrapper {
+
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: fit-content;
+  max-height: 400px;
+  
+  margin-top: 22px;
+  
+  margin: 15px;
+  padding-bottom: 20px;
+  
+}
+
+
+table {
+  
+  min-width: max-content;
+  
+  border-collapse: separate;
+  border-spacing: 0px;    
+  
+}
+
+
+
+table th{
+  position: sticky; 
+  top: 0px;
+  font-size: 18px;
+  /* outline: 0.7px solid black;
+  border: 1.5px solid black; */
+
+} 
+
+
+
+table th, table td {
+  
+  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+table td {
+  text-align: left;
+  font-size: 18px;
+  padding-left: 20px;
+  
+}

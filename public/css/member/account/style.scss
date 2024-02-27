@@ -1,0 +1,24 @@
+.table-fixed {
+  table-layout: fixed; // Ensure the table layout is fixed
+  thead > tr, tbody > tr {
+    display: flex;
+    justify-content: space-around;
+    flex: 0 0 auto;
+
+    th, td {
+      flex: 1;
+      min-width: 100px; // Set a fixed minimum width for each cell
+      // Adjust the min-width as needed to fit your content
+    }
+  }
+
+  tbody {
+    overflow: auto; // Changed from scroll to auto to handle both vertical and horizontal overflow
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.table-lock-height > tbody {
+   height: 40vh;
+}

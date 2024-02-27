@@ -1,0 +1,21 @@
+.table-fixed {
+   thead > tr, tbody > tr {
+     display: flex;
+     justify-content: space-around;
+     flex: 0 0 auto;
+ 
+     th, td {
+       flex: 1;
+     }
+   }
+ 
+   tbody {
+     overflow: scroll;
+     display: flex;
+     flex-direction: column;
+   }
+ }
+ 
+.table-lock-height > tbody {
+    height: 40vh;
+}
